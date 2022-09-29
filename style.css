@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3dad8;
+    /* background-color: #f1b5cb; */
+    border: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.corazon{
+    font-size: 10rem;
+    color: #f4c3c2;
+    animation: corazon 2s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes corazon {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.85);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.1.2);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.80);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+        color: #e88eed;
+		transform: scale(1);
+	}
+
+    50% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+        color: #e88eed;
+		transform-origin: center center;
+	}
+
+	60% {
+		animation-timing-function: ease-in;
+		transform: scale(0.85);
+	}
+
+	67% {
+		animation-timing-function: ease-out;
+		transform: scale(0.1.2);
+	}
+
+	83% {
+		animation-timing-function: ease-in;
+		transform: scale(0.80);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
